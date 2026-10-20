@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Conditional {
+public class CarRental {
     public static void main(String[] args) {
         String pickupDate = "Tuesday";
         int rentalDays = 2;
