@@ -7,7 +7,7 @@ public class DateTimeStuff {
     public static void main(String[] args) {
         LocalDate localDate;
 
-        // ISO date, no formatter neeed (it's the default)
+        // ISO date, no formatter needed (it's the default)
         String isoDateText = "2026-10-21";
         localDate = LocalDate.parse(isoDateText);
         System.out.println("Converted ISO " + isoDateText +" to LocalDate: " + localDate.getMonth() + " " + localDate.getDayOfMonth() + " " + localDate.getYear());
