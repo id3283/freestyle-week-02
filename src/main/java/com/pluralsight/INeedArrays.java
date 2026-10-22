@@ -1,26 +1,23 @@
 package com.pluralsight;
 
-import java.util.regex.Pattern;
-
 public class INeedArrays {
     public static void main(String[] args) {
+        int[] numbers = {5, 9, 7};
+        int[] moreNumbers = new int[3];
 
-        boolean amTired = false;
 
-        System.out.println(!amTired);
-
-//        String student1 = "Tai";
-//        String student2 = "Samin";
-//        String student3 = "Yahir, PhD";
-
-//        String favoriteThingString = "coding|gf,sailing";
-//
-////        String[] students = favoriteThings.split(Pattern.quote("|"));
-//        String[] favoriteThings = favoriteThingString.split("[|]");
-//
-//        System.out.println(favoriteThings.length);
-//
-//        System.out.println(favoriteThingString);
-//        System.out.println(favoriteThings);
     }
+
+    public static void stringArrayExample() {
+        String student1;
+        student1 = "Tai";
+        String student2 = "Samin";
+        String student3 = "Yahir";
+//        String[] students = {"Tai", "Samin", "Yahir"};
+        String[] students = new String[3];
+        students[0] = "Tai";
+
+        System.out.println(students[0]);
+    }
+
 }

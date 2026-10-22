@@ -16,6 +16,7 @@ public class BuildingSomeStrings {
 
         firstName = firstName.trim();
 
+
         stringBuilder.append(title + " ");
         stringBuilder.append(firstName + " ");
         stringBuilder.append(lastName + " ");
