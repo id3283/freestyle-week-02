@@ -2,9 +2,20 @@ package com.pluralsight;
 
 public class INeedArrays {
     public static void main(String[] args) {
-        int[] numbers = {5, 9, 7};
-        int[] moreNumbers = new int[3];
+        String[] names = {"Afnan", "Behlul", "Emad"};
 
+        for (int i = 0; i < names.length; i++) {
+            String currentName = names[i];
+            System.out.println(currentName);
+        }
+
+        System.out.println("---------------");
+        int[] numbers = {5, 6, 7};
+
+        for (int currentNumber : numbers) {
+            System.out.print(currentNumber + " ");
+        }
+        System.out.println("\n");
 
     }
 
